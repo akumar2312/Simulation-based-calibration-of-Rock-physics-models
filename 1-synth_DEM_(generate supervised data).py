@@ -80,7 +80,7 @@ DEM essentials
 """
 # Matrix properties
 Km = 55.42  # GPa
-Gm = 23.20  # GPa
+Gm = 32.00  # GPa
 rhom = 2.71  # g/cm3
 
 # Fluid properties
