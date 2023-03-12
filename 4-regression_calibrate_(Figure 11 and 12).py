@@ -43,8 +43,8 @@ def plot_scatter(x_, y_, coefs, xlab, ylab, sname):
 savehere = "./results/"
 
 
-# soln_dicto = pickle.load(open('./Well-1_complete', 'rb')); s_ = "Well-1_"
-soln_dicto = pickle.load(open('./Well-2_complete', 'rb')); s_ = "Well-2_"
+# soln_dicto = pickle.load(open('./observed/Well-1_complete', 'rb')); s_ = "Well-1_"
+soln_dicto = pickle.load(open('./observed/Well-2_complete', 'rb')); s_ = "Well-2_"
 
 df = pd.DataFrame.from_dict(data=soln_dicto)
 y_Vp_model = df["Vp_model"]
