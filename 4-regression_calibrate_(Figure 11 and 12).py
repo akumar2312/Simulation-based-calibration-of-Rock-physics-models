@@ -1,6 +1,5 @@
 """
-Program to calibrate the model using regression
-equations.
+Program to calibrate the rock physics model.
 """
 
 import numpy as np
