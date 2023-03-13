@@ -1,4 +1,7 @@
 """
+Adapted from:    
+https://github.com/fvizeus/PyDEM
+
 This DEM implementation is based on
 Berryman 1980.
 """
