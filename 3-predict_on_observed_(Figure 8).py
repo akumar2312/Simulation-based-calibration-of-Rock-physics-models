@@ -48,8 +48,8 @@ def error_plot(x2, save_here, num_bins, color):
 """
 Uncomment line 51 or 52 for generating figure 8a) and 8b) respectively
 """
-s_ = "Well-1_"
-# s_ = "Well-2_"
+s_ = "Well-1_complete"
+# s_ = "Well-2_complete"
 with open('./observed/' + s_ + '.pkl', 'rb') as fp:
     dfs = pickle.load(fp)
 
